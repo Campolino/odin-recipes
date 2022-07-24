@@ -17,7 +17,8 @@ header img {
   width: 28px;
 }
 
-main { 
+main,
+footer { 
   width: 80%;
   margin: 0 auto;
 }
@@ -114,4 +115,12 @@ main {
 
 .directions ul p {
   margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
 }
